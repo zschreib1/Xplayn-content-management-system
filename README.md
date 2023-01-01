@@ -12,7 +12,7 @@ These coding segments implement adding a story to the database. Each story consi
 **FUNCTIONALITIES & PAGE INTERACTIVITY:**
 - When pressed, the button triggers the appearance of an input form on the page. 
 - The user can input information about the story, add or remove chapters.
-- Upon submition, the information inputed in the form is sent to the database via a custom JavaScript API route that I wrote to query the database from the client-side. First, the story (title, subtitle) is saved then, I loop over all the chapters and save them to the story in the database.
+- When the form is submitted, the information is sent to the database via a custom JavaScript API route that I wrote: the story (title, subtitle) is saved first, then the chapters.
 
 **FILES:**
 - *index.html*
