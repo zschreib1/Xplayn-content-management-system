@@ -1,6 +1,6 @@
 # XPlayn-sample
 
-Excerpts from *XPlayn*, a **content management system** (CMS) **web app** that I created that helps users *build interactive stories that come to life as they scroll*, using **Python** and **Django** for the back end, **JavaScript** for the front end and wrote my own **API routes** to query the database from the client-side. 
+Excerpts from *XPlayn*, a **content management system** (CMS) **web app** that I created to helps users *build interactive stories that come to life as they scroll*, using **Python** and **Django** for the back end, **JavaScript** for the front end and wrote my own **API routes** to query the database from the client-side. 
 
 
 These coding segments implement adding a story to the database. Each story consists of: 
