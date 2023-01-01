@@ -31,4 +31,4 @@ Defines the web app’s 3 models (User, Story, Chapter) and their serializers.
 Handles the URL schemes and the API routes for the web app.
 
 - *views.py*
-Contains the Python functions that take the web requests and return Http response or Json responses or render HTML templates. The other functions handle the API’s querying of the database: *newstory*, *newchapter*.
+Contains the Python functions that handle the API’s querying of the database: *newstory*, *newchapter*.
