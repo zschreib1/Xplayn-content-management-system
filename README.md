@@ -1,6 +1,6 @@
 # XPlayn-sample
 
-Excerpts from *XPlayn*, a **content management system** (CMS) **web app** that I created that helps users build interactive stories that come to life as they scroll. These coding excerpts focus on implementing adding a story to the database. Each story consists of: 
+Excerpts from *XPlayn*, a **content management system** (CMS) **web app** that I created that helps users build interactive stories that come to life as they scroll. These coding segments focus on implementing adding a story to the database. Each story consists of: 
 - a title, 
 - a subtitle, and 
 - chapters (with a text description, an image url and a caption).
