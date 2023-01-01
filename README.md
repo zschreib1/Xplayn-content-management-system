@@ -1,15 +1,15 @@
 # XPlayn-sample
 
-These coding segments are extracted from *XPlayn*, a *content management system (CMS)* that I created that helps you build interactive stories that come to life as you scroll. They focus on implementing adding a story to the database. Each story consists of a title, a subtitle and chapters (with a text description, an image url and a caption).
+Extracts from *XPlayn*, a **content management system** (CMS) **web app** that I created that helps users build interactive stories that come to life as they scroll. These coding excerpts focus on implementing adding a story to the database. Each story consists of a title, a subtitle and chapters (with a text description, an image url and a caption).
 
 I used Django and Python for the back end, I used JavaScript for the front end to dynamically manipulate the HTML DOM and I wrote my own JavaScript API routes to query the database on the client-side. This enables me to expose data in JSON format without having to access the server. I used CSS / Bootstrap for styling. 
 
-*FUNCTIONALITIES & PAGE INTERACTIVITY:*
+**FUNCTIONALITIES & PAGE INTERACTIVITY:**
 - When pressed, the button triggers the appearance of an input form on the page. 
 - The user can input information about the story, add or remove chapters.
 - Upon submition, the information inputed in the form is sent to the database via a custom JavaScript API route that I wrote to query the database from the client-side. First, the story (title, subtitle) is saved then, I loop over all the chapters and save them to the story in the database.
 
-*FILES:*
+**FILES:**
 *index.html*
 Pared-down web page.
 
