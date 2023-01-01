@@ -13,20 +13,20 @@ I used **Python** and **Django** for the back end, **JavaScript** for the front 
 - Upon submition, the information inputed in the form is sent to the database via a custom JavaScript API route that I wrote to query the database from the client-side. First, the story (title, subtitle) is saved then, I loop over all the chapters and save them to the story in the database.
 
 **FILES:**
-*index.html*
+- *index.html*
 Pared-down web page.
 
-*main.js*
+- *main.js*
 Handles the button interactivity.
 
-*admin.py*
+- *admin.py*
 Registers models and makes them accessible in the Django admin panel.
 
-*models.py*
+- *models.py*
 Defines the web app’s 3 models (User, Story, Chapter) and their serializers.
 
-*urls.py*
+- *urls.py*
 Handles the URL schemes and the API routes for the web app.
 
-*views.py*
+- *views.py*
 Contains the Python functions that take the web requests and return Http response or Json responses or render HTML templates. The other functions handle the API’s querying of the database: *newstory*, *newchapter*.
