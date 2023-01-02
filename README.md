@@ -2,6 +2,8 @@
 
 Excerpts from *XPlayn*, a **content management system** (CMS) **web app** that I created that helps users *build interactive stories that come to life as they scroll*, using **Python** and **Django** on the back end, **JavaScript**, **HTML**, **CSS** on the front end and writing my own **API routes** to query the database from the client-side. 
 
+- Click [here](https://www.zoeschreiber.be/portfolio/xplayn) for a full demo of the app.
+
 
 These coding segments implement adding a story to the database. Each story consists of: 
 - a title, 
